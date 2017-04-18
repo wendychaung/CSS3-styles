@@ -1,0 +1,15 @@
+body,html{font-size: 14px;font-family: "Microsoft YaHei";color: #666;padding: 0;margin: 0;font-size: 14px;}
+ul,li{ padding: 0; margin: 0;list-style: none;line-height: 2em;}
+.checkBox{padding: 20px;width:400px;margin: 20px;}
+.checkBox:first-child{border-bottom: 1px solid #ccc;}
+.title{font-size: 16px;padding-bottom: 10px;font-weight: bold}
+input[type='radio'],input[type='checkbox']{  display:none;  }
+input[type='radio'] + label ,input[type='checkbox'] + label{ padding-left: 20px; display: inline-block; vertical-align: middle;}
+input[type='radio'] + label{ background: url(../images/table-radio.png) no-repeat 0 6px; }
+input[type='radio']:disabled + label{ background: url(../images/checkBox_disable.png) no-repeat 0 7px; }
+input[type='radio']:checked + label{ background: url(../images/table-radio-selected.png) no-repeat 0 6px;  }
+
+
+input[type='checkbox'] + label{ background: url(../images/checkBox.png) no-repeat 0 7px;}
+input[type='checkbox']:checked + label{ background: url(../images/checkBox_checked.png) no-repeat 0 7px; }
+input[type='checkbox']:disabled + label{ background: url(../images/checkBox_disable.png) no-repeat 0 7px; }
